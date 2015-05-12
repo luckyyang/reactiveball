@@ -1,0 +1,23 @@
+<head>
+  <title>reactiveHBall</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hball}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="hball">
+  <button id="shaker">Shake</button>
+  <div id="ball">
+    <div id="text">
+      {{answer}}
+    </div>
+  </div>
+</template>
