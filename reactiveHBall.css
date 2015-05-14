@@ -1,4 +1,19 @@
 /* CSS declarations go here */
+
+body {
+  background-color: #191919;
+  font-family: Helvetica, Arial Black, sans;
+}
+#intro {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+#hball-container {
+  width: inherit;
+  margin: 0 auto;
+  text-align: center;
+}
 #ball {
   position: relative;
   display: inline-block;
